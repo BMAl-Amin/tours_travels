@@ -1,0 +1,176 @@
+body{
+	font-family: ubuntu !important;
+}
+.b-color{
+	background-color: #00001f;
+	border: 1px solid black;
+	height: 40px;
+}
+.social-icon{
+	margin: 3px;
+	font-size: 25px;
+	color: #D2D2D2;
+}
+.fa-facebook:HOVER{
+	color: #5247B4;
+}
+.fa-twitter:HOVER{
+	color: #4086F7;
+}
+.fa-google-plus:HOVER{
+	color: #D2321D;
+}
+.fa-youtube:HOVER{
+	color: #FF0000;
+}
+#navbar{
+	width: 100%;
+	height: auto;
+	background-color:#00001f;
+	color: #ffffff;
+	font-family: "ubuntu";
+	opacity: .8;
+	z-index: 19999;
+}
+#navbar ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-align: center;
+	
+}
+#navbar ul li{
+	float: left;
+	width: auto;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 19px;
+	position: relative;
+	margin: 1px;
+	padding-left: 35px;
+	padding-right: 35px;
+	opacity: .8;
+}
+#navbar ul li a{
+	text-decoration: none;
+	color: #ffffff;
+}
+#navbar ul li a:HOVER{
+	color: #73d216;
+}
+#navbar ul ul{
+	margin: 0;
+	background-color:#00001f;
+	width: 224px;
+	position: absolute;
+	display: none;
+	z-index: 19999;
+}
+
+#navbar ul li:HOVER ul{
+	display: block;
+}
+.hh2{
+	text-align: center;
+	color: #2452a4;
+}
+.content{
+	backgroud-color: gray;
+	height: 1500px;
+}
+#suba{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 19px;
+	background-color: #00001f;
+	border: 2px solid #c4a000;
+	border-radius: 3px;
+	padding: 5px;
+}
+#suba:HOVER{
+	font-size:20px;
+	color: #73d216;
+	border-radius:0;
+}
+#contactformbg{
+	height: 920px;
+	background-color: #00001f;
+	color:#ffffff;
+	text-align: center;
+	border-radius: 2px;
+}
+#contactform{
+	min-height: 400px;
+	background-color: #ffffff;
+	color: #003d01;
+	padding:7px;
+	padding-left: 15px;
+	text-align: left;
+	border: 2px solid #c4a000;
+	border-radius: 5px;
+}
+
+#contactform input[type=email],input[type=text]{
+	margin-bottom: 10px;
+	padding: 5px;
+	font-size: 15px;
+	font-family: arial;
+	border-style: none;
+	border: 1px solid black;
+	background-color:#ffffff;
+}
+#contactform input[type=email]:HOVER,input[type=text]:HOVER{
+	background-color:#d3d7cf;
+	color: #00001f;
+}
+#contactform input[type=email]:focus,input[type=text]:focus{
+	border: 2px solid #c4a000;
+	border-radius: 5px;
+}
+#contactform input[type=submit]{
+	text-align: center;
+	margin-left: 37%;
+	border-style:none;
+	font-size: 17px;
+	padding: 5px;
+	color: #ffffff;
+	border: 1px solid #c4a000;
+	background-color: #00001f;
+}
+#contactform input[type=submit]:HOVER{
+	color: #73d216;
+	font-size: 19px;
+	border-radius: 5px;
+}
+#contactform select{
+	padding:0px;
+	margin-bottom: 8px;
+	padding: 5px;
+	text-align: center;
+	font-size: 15px;
+	font-family: arial;
+}
+#contactform select:HOVER{
+	color: #555753;
+}
+.submenubg{
+	width:80%;
+	border: 2px solid #c4a000;
+}
+.admintable{
+	border: 2px solid #00001f;
+	color: #003d01;
+}
+.admintable tr th{
+	border: 1px solid black;
+	text-align:center;
+	padding: 3px;
+}
+.admintable tr td{
+	border: 1px solid black;
+	text-align:center;
+	padding: 3px;
+}
+
+
